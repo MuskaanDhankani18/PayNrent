@@ -1,0 +1,34 @@
+Category
+---------
+categoryid
+categoryname
+description
+icon
+
+Subcategory
+-------------
+subcategoryid (pk) - Don't input
+categoryid (fk)
+brandname
+subcategoryname  (Name of vehicles like under small cars-swift,tiago)
+description
+icon
+
+Vehicle
+---------
+vehicleid (pk)
+categoryid
+subcategoryid
+modelyear
+variant of vehicle
+price
+insured (YES/NO) radio button
+regno.
+ownername (can be company name or buying from a person)
+mobileno.
+vehicle color
+fuel type (Diesel,CNG)
+no. of seats
+transmission type (manual or automatic) radio button
+picture of vehicle
+
